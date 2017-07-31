@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>聊天机器人</title>
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://unpkg.com/iview/dist/styles/iview.css">
+    <script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
+    <script type="text/javascript" src="http://unpkg.com/iview/dist/iview.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
+
+</head>
+<body>
+	<div id="app">
+
+	<template>
+	    <div class="layout">
+	        <div class="layout-ceiling">
+	            <div class="layout-ceiling-main">
+	                <a href="#">帮助中心</a> |
+	                <a href="#">服务大厅</a> |
+	                <a href="#">更换皮肤</a>
+	            </div>
+	        </div>
+	        <div class="layout-header"></div>
+	        <div class="content" style="min-height: 400px"></div>
+	        <div class="send">
+	 			<Input  placeholder="描述你的问题..." style="width: 280px;height: 30px" id="sendContent"></Input>
+				<Button type="info" id="button1" >发送</Button>
+		</div>
+	    </div>
+	</template>
+	
+	</div>
+
+<script>
+	// export default {
+ //        data () {
+ //            return {
+ //                value: ''
+ //            }
+ //        }
+ //    }
+	var vm = new Vue({
+		el:"#app",
+		data:{
+
+		}
+	});
+
+</script>	
+</body>
+</html>
